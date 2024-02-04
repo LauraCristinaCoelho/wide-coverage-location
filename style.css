@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    margin: 47px 0 0 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.logo-image {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+}
+
+.container-text {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+    letter-spacing: 0.5px;
+}
+
+.button-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.button-header:hover {
+    background: #7bc057;
+}
+
+.button-header:active {
+    background: #4d611f;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .button-header {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+    }
+
+    .container-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 304px;
+        padding: 5px;
+        margin: 100px 0 10px 0;
+
+    }
+
+
+    .link-header {
+        display: none;
+    }
+
+    .logo-image {
+        display: flex;
+        align-items: center;
+        margin: 10px 78px;
+        padding: 10px;
+        width: 312px;
+        height: auto;
+        top: 0px;
+        left: 0px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        margin: 20px 0 20px 0;
+        text-align: center;
+    }
+
+    .button-learn-more {
+        margin: 0 auto;
+        display: block;
+    }
+}
